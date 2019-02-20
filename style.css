@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 200px auto;
+    text-align: center;
+}
+body {
+    background-color: black;
+}
+.wall {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border: 2px solid cornflowerblue;
+}
+.player {
+    background-image: url('IMG_20180825_231606\ copy.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.path {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border: 2px solid cornflowerblue;
+}
+
+.treasure {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('tortilla-patatas-cebolla-tierna.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    transform: scale(0.8);
+}
+#mazeWorld {
+    width: 900px;
+    height: auto;
+}
