@@ -46,4 +46,5 @@ body {
 #mazeWorld {
     width: 900px;
     height: auto;
+    position: absolute;
 }
